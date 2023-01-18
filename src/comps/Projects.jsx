@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { BsGithub } from "react-icons/bs";
-import { buttonVariants } from '../variants/buttonVariants';
+import { buttonVariants, ghlinkVariants } from '../variants/buttonVariants';
 import { projectsData } from '../projectsData';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -36,22 +36,14 @@ function Projects() {
             </div>
             <div className='project-card-footer'>
               <h4 className='project-title'>{project.name}</h4>
-              <motion.a variants={buttonVariants} whileHover='hover' className='project-button' href={project.link}>View Live Demo</motion.a>
+              <motion.a variants={buttonVariants} whileHover='hover' className='project-button' href={project.link}> Live</motion.a>
               <motion.a
-              variants={buttonVariants}
+              variants={ghlinkVariants}
+              initial='initial'
+              animate='animate'
+              transition='transition'
               href={project.ghlink}
-                initial={{
-                  scale: 1
-                }}
-                animate={{
-                  scale: 1.3
-                }}
-                transition={{
-                  ease: "linear",
-                  duration: 1.3,
-                  repeat: Infinity,
-                  repeatType: 'reverse'
-                }}><BsGithub className='project-github-icon' /></motion.a>
+             ><BsGithub className='project-github-icon' /></motion.a>
             </div>
 
           </div>

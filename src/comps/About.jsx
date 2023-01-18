@@ -1,18 +1,20 @@
 import React from 'react';
 import { SiRuby, SiRubyonrails, AiFillHtml5, DiCss3, DiJavascript1, FaReact, SiRedux, BsFillBootstrapFill, SiTailwindcss } from 'react-icons/all'
 import { motion } from "framer-motion";
-import { ulVariants, iconVariants } from '../variants/aboutPageVariants'; 
+import { ulVariants, iconVariants } from '../variants/aboutPageVariants';
 import photo from '../assets/rsz_2rsz_shot.jpg'
 
 
 const AboutMe = () => {
     return (
-        <div className="about-me">
-            <p className='about-me-paragraph'>
-                Howdy, I'm Conor and I love coding! I've spent the past year learning the ins and outs of being a great fullstack developer. My favorite stack is Ruby on Rails backend with a React based front end. I work everyday to make my projects clean, effecient, and looking amazing! Thanks for taking a look at my portfolio. 
-            </p>
-            <div>
-                <img src={photo} className='shot'/>
+        <div className='about-me-container'>
+            <div className="about-me">
+                <p className='about-me-paragraph'>
+                    Howdy, I'm Conor and I love coding! I've spent the past year learning the ins and outs of being a great fullstack developer. My favorite stack is Ruby on Rails backend with a React based front end. I work everyday to make my projects clean, effecient, and looking amazing! Thanks for taking a look at my portfolio.
+                </p>
+                <div>
+                    <img src={photo} className='shot' />
+                </div>
             </div>
             <div>
                 <motion.ul
