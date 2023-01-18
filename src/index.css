@@ -1,0 +1,279 @@
+@font-face {
+  font-family:'Lato', 'sans-serif' ;
+  src: url('https://fonts.googleapis.com/css?family=Lato');
+}
+
+body {
+  font-family: 'Lato';
+  margin: 0;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#dark {
+  background-color: #16181D;
+  color: #EDEADE;
+}
+
+#light {
+  background-color: #EDEADE;
+  color: #201F1F;
+
+}
+
+h3 {
+  text-align: center;
+  /* color: #fff; */
+  font-weight: 700;
+}
+
+#section1 {
+  color: black;
+}
+
+.section {
+  height: 100vh;
+
+}
+
+.fp-section {
+  text-align: center;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: fixed;
+  isolation: isolate;
+  gap: 100px;
+  z-index: 2;
+  top: 130px;
+  margin-left: 5%;
+}
+
+.logo { 
+  width: 25px;
+  height: 25px;
+}
+
+.home-div {
+  height: 90vh;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  padding-top: 15%;
+  /* padding-bottom: 15%; */
+}
+
+.border {
+  border-bottom: 2px solid;
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.switch {
+  transform: rotate(-90deg);
+}
+
+.moon {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.sun {
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.about-me { 
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 20%;
+}
+
+.shot { 
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.about-me-paragraph { 
+  width: 50%;
+  text-align: left;
+  padding-right: 125px;
+}
+
+.stack { 
+  display: flex;
+  flex-direction: column;
+  margin-left: 11rem;
+  gap: 10px
+}
+
+.stack-icon {
+  height: 45px;
+  width: 45px;
+}
+
+.slider { 
+  border: 1px solid;
+  border-color: #16181D ;
+  border-radius: 6px;
+   
+}
+
+.slick-dots li button:before {
+  color: #ffff !important;}
+
+.projects-container {
+  margin: 0;
+  margin-top: 5%;
+  height: 90vh;
+  text-align: center; 
+  position: relative;
+  margin-left: 22%;
+  margin-right: 17%;
+  padding: 0;
+  bottom: 0;
+}
+
+.projects-card { 
+  background-color: #808080;
+  display: flex;
+  flex-direction: column;
+  height: 490px;
+  border-radius: 6px;
+}
+
+.project-card-footer{
+  background-color: #23272F; 
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  border-color: #16181D ;
+  border-radius: 6px;
+  border-top: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.project-button { 
+  background: linear-gradient(90deg,#ffa0ae 0%,#aacaef 75%);
+  color: inherit;
+  font-size: 15px;
+  border: none;
+  line-height: 45px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border-bottom: none;
+  outline: none;
+  box-shadow: 6px 4px 12px -6px rgba(0,24,40,0.25);
+}
+
+.project-github-icon { 
+  height: 100px;
+  width: 50px;
+  color: #ffff;
+}
+
+.project-title {
+  color: #ffff;
+  font-weight: normal;
+}
+
+.projects-photo { 
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 6px;
+  filter: brightness(.5);
+}
+
+
+.form-div { 
+  height: 100vh;
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-top: 10%;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.form-input-error {
+  border-color: #ff0000;
+}
+
+.form-error {
+  color: #ff0000;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  background: linear-gradient(90deg,#ffa0ae 0%,#aacaef 75%);
+  border: none;
+  color: inherit;
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border-bottom: none;
+  outline: none;
+  box-shadow: 6px 4px 12px -6px rgba(0,24,40,0.25);
+}
+
+
+
+
