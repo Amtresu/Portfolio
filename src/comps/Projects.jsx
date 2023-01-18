@@ -17,7 +17,14 @@ function Projects() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // dotsClass: 'slider-dots'
+    responsive: [
+      {
+      breakpoint: 769,
+      settings: { 
+        dots: false,
+        arrows: false,
+      }
+    },]
   };
   return (
     <div className='projects-container'>

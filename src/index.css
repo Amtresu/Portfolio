@@ -173,8 +173,9 @@ a {
   border-color: #16181D ;
   border-radius: 6px;
   border-top: none;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
+  gap: 20px;
 }
 
 .project-button { 
@@ -272,6 +273,53 @@ a {
   border-bottom: none;
   outline: none;
   box-shadow: 6px 4px 12px -6px rgba(0,24,40,0.25);
+}
+
+@media only screen and (max-width: 768px) {
+  .sidenav { 
+    display: none;
+  }
+
+  .about-me { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 20%;
+  }
+  
+  .shot { 
+    border-radius: 6px;
+    max-width: 100%;
+  }
+  
+  .about-me-paragraph { 
+    width: 50%;
+    text-align: left;
+    padding-right: 125px;
+  }
+
+  .projects-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .project-card-footer{
+    justify-content: center;
+    gap: 20%;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+
+  .project-button { 
+    width: 100px;
+    font-size: 10px;
+  }
 }
 
 

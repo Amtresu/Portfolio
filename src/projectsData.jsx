@@ -1,9 +1,9 @@
-import coffeePagePhoto from 'C:/Users/12083/Documents/github/portfolio/src/assets/coffeepage.png';
-import leaderBoardPhoto from 'C:/Users/12083/Documents/github/portfolio/src/assets/leaderboard.png';
-import awesomeBooksPhoto from 'C:/Users/12083/Documents/github/portfolio/src/assets/awesome-books1.png';
-import sigmaQuotesPhoto from 'C:/Users/12083/Documents/github/portfolio/src/assets/sigma-quotes.png';
-import spaceKarmaPhoto from 'C:/Users/12083/Documents/github/portfolio/src/assets/space-karma.png';
-import rentacarPhoto from 'C:/Users/12083/Documents/github/portfolio/src/assets/rentacar.png'
+import coffeePagePhoto from './assets/coffeepage.png';
+import leaderBoardPhoto from './assets/leaderboard.png';
+import awesomeBooksPhoto from './assets/awesome-books1.png';
+import sigmaQuotesPhoto from './assets/sigma-quotes.png';
+import spaceKarmaPhoto from './assets/space-karma.png';
+import rentacarPhoto from './assets/rentacar.png'
 
 export const projectsData = [
     {

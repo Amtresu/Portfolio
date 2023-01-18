@@ -4,6 +4,7 @@ import { BsFillSunFill, BsFillMoonFill, TbLetterC } from 'react-icons/all'
 import ReactSwitch from "react-switch";
 
 
+
 const NavBar = ({ toggleTheme }) => {
 
   const [checked, setChecked] = useState(false);

@@ -2,7 +2,7 @@ import React from 'react';
 import { SiRuby, SiRubyonrails, AiFillHtml5, DiCss3, DiJavascript1, FaReact, SiRedux, BsFillBootstrapFill, SiTailwindcss } from 'react-icons/all'
 import { motion } from "framer-motion";
 import { ulVariants, iconVariants } from '../variants/aboutPageVariants'; 
-import photo from 'C:/Users/12083/Documents/github/portfolio/src/assets/rsz_2rsz_shot.jpg'
+import photo from '../assets/rsz_2rsz_shot.jpg'
 
 
 const AboutMe = () => {
