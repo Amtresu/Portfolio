@@ -40,7 +40,7 @@
     <a href="https://github.com/Amtresu/Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Amtresu/Portfolio">View Demo</a>
+    <a href="https://conorjoseph.netlify.app/#Home">View Demo</a>
     ·
     <a href="https://github.com/Amtresu/Portfolio/issues">Report Bug</a>
     ·
