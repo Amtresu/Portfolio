@@ -26,8 +26,6 @@ ul {
 
 h3 {
   text-align: center;
-
-  /* color: #fff; */
   font-weight: 700;
 }
 
@@ -72,8 +70,6 @@ h3 {
 
 h1 {
   padding-top: 15%;
-
-  /* padding-bottom: 15%; */
 }
 
 .border {
@@ -84,6 +80,17 @@ h1 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.home-icon { 
+  width: 30px;
+  height: 30px;
 }
 
 .switch {
@@ -316,8 +323,6 @@ a {
   .about-me-paragraph {
     width: 100%;
     text-align: left;
-
-    /* padding-right: 125px; */
   }
 
   .projects-container {

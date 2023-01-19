@@ -41,15 +41,32 @@ export const headerVariants = {
     }
 }
 
-export const paragraphVariant = { 
+export const paragraphVariant = {
     initial: {
         opacity: 0
     },
-    transition: {
-        delay: 2.2
-    },
     animate: {
-        opacity: 1
+        opacity: 1,
+        transition: {
+            delay: 2.2
+        },
     }
 }
 
+
+export const iconVariants = {
+    initial: {
+        opacity: 0
+    },
+    animate: {
+        color: 'inherit',
+        opacity: 1,
+        transition: {
+            delay: 2.2
+        }
+    },
+    whileHover: {
+        scale: 1.3,
+    }
+
+}
