@@ -182,7 +182,7 @@ Project Link: [https://github.com/Amtresu/Portfolio](https://github.com/Amtresu/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Amtresu/Portfolio/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/Amtresu/Portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/Amtresu/Portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Amtresu/Portfolio.svg?style=for-the-badge
 [forks-url]: https://github.com/Amtresu/Portfolio/network/members
