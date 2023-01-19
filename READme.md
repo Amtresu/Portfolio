@@ -29,7 +29,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Amtresu/Portfolios">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="icon.ico" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Portfolio</h3>
@@ -81,8 +81,6 @@
 
 [![Home Page Screenshot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -98,29 +96,31 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project is built with vite and React, we also use Framer motion for the animations, fullPageJs for the scrolling effect, React Slick for the carousel, and React Icon Library for the icons.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
+* vite
+  ```sh
+  npm create vite@latest
+  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
    git clone git@github.com:Amtresu/Portfolio.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Run Dev server
+3. Run Dev server
   ```sh
    npm run dev
    ```
@@ -140,8 +140,8 @@ Please feel free to use this portfolio as inspiriation for your own. That's why 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Implement Desktop Version
-- [ ] Implement Mobile version
+- [x] Implement Desktop Version
+- [x] Implement Mobile version
 - [ ] Add Mobile Nav Menu
 - [ ] Add project details Modal
 
@@ -171,11 +171,13 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-- email@email_client.com
+- conor.follette@gmail.com
 
 Project Link: [https://github.com/Amtresu/Portfolio](https://github.com/Amtresu/Portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
