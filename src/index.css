@@ -84,11 +84,11 @@ a {
 
 .icon-div {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   gap: 20px;
 }
 
-.home-icon { 
+.home-icon {
   width: 30px;
   height: 30px;
 }
